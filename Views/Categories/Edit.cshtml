@@ -1,0 +1,12 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model Category
+
+<h2>Edit Category</h2>
+<div class="text-danger" asp-validation-summary="All" ></div>
+@if(Model!=null)
+{
+    <partial name="_Category" model="@Model"/>
+}
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.css" asp-append-version="true" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl7/8SLzAi2DbjT7lAO3Kw1TUMv/jrYwP0V6Wz+8Ij" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js" integrity="sha384-IQsoLXlDDr2r/8nRf2tFp3r5LDl9u2K9h7LG/tl0hxZ5yY6cyQbuInlw+KUnmJe6" crossorigin="anonymous"></script>
+    <script src="~/lib/bootstrap/js/bootstrap.min.js" asp-append-version="true"></script>
+    <title>Cafe Management</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="/Home">Cafe</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="/Home/Index">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="/Categories/Index">Category</a>
+                <a class="nav-item nav-link" href="/Products/Index">Product</a>
+                
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        @RenderSection("title",false)
+
+    </div>
+    <div class="container">
+        @RenderBody()
+    </div>
+    @await RenderSectionAsync("Scripts",required:false)
+</body>
+</html>
