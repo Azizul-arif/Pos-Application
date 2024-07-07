@@ -21,7 +21,7 @@
                 <tr>
                     <td>@product.Category?.Name</td>
                     <td>@product.Name</td>
-                    <td>@product.Price</td>
+                    <td>$@product.Price</td>
                     <td>@product.Quantity</td>
                 </tr>
             }
@@ -30,3 +30,5 @@
 
     </table>
 }
+
+<a type="button" class="btn btn-info" asp-controller="Products" asp-action="Add">Add Product</a>

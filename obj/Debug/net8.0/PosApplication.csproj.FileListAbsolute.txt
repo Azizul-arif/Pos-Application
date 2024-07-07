@@ -26,3 +26,4 @@ D:\Market Management System\PosApplication\obj\Debug\net8.0\refint\PosApplicatio
 D:\Market Management System\PosApplication\obj\Debug\net8.0\PosApplication.pdb
 D:\Market Management System\PosApplication\obj\Debug\net8.0\PosApplication.genruntimeconfig.cache
 D:\Market Management System\PosApplication\obj\Debug\net8.0\ref\PosApplication.dll
+D:\Market Management System\PosApplication\obj\Debug\net8.0\PosApplication.sourcelink.json
