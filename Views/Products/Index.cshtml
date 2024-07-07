@@ -13,6 +13,8 @@
                 <th>Name</th>
                 <th>Price</th>
                 <th>Quantity</th>
+                <th></th>
+                <th></th>
             </tr>
         </thead>
         <tbody>
@@ -23,6 +25,8 @@
                     <td>@product.Name</td>
                     <td>$@product.Price</td>
                     <td>@product.Quantity</td>
+                    <td><a class="btn btn-link" asp-controller="Products" asp-action="Edit" asp-route-id="@product.ProductId">Edit</a></td>
+                    <td><a class="btn btn-link" asp-controller="Products" asp-action="Delete" asp-route-id="@product.ProductId" onclick="return confirmDelete()">Delete</a></td>
                 </tr>
             }
         </tbody>
@@ -32,3 +36,12 @@
 }
 
 <a type="button" class="btn btn-info" asp-controller="Products" asp-action="Add">Add Product</a>
+
+@section Scripts{
+    <script>
+        function confirmDelete() {
+            return confirm("Are you sure you want to Delete?");
+        }
+       
+    </script>
+}
