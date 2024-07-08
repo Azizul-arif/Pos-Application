@@ -3,34 +3,55 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.css" asp-append-version="true" />
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl7/8SLzAi2DbjT7lAO3Kw1TUMv/jrYwP0V6Wz+8Ij" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js" integrity="sha384-IQsoLXlDDr2r/8nRf2tFp3r5LDl9u2K9h7LG/tl0hxZ5yY6cyQbuInlw+KUnmJe6" crossorigin="anonymous"></script>
-    <script src="~/lib/bootstrap/js/bootstrap.min.js" asp-append-version="true"></script>
-    <title>Cafe Management</title>
+    <title>Supermarket Management</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="/Home">Cafe</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="/Home/Index">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="/Categories/Index">Category</a>
-                <a class="nav-item nav-link" href="/Products/Index">Product</a>
-                
-            </div>
-        </div>
-    </nav>
-    <div class="container">
-        @RenderSection("title",false)
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Supermarket</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-controller="home" asp-action="index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-controller="sales" asp-action="index">Sell</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-controller="categories" asp-action="index">Categories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-controller="products" asp-action="index">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-controller="transactions" asp-action="index">Transactions</a>
+                        </li>
+                    </ul>
 
-    </div>
+                    
+                </div>
+            </div>
+        </nav>
+    </header>
     <div class="container">
-        @RenderBody()
+        <div class="pb-3">
+            @RenderSection("title", false)
+            <hr />
+        </div>
+        <div>
+            @RenderBody()
+        </div>
     </div>
-    @await RenderSectionAsync("Scripts",required:false)
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+            integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+            crossorigin="anonymous"></script>
+    @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
