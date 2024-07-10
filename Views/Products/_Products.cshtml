@@ -1,0 +1,15 @@
+﻿@model IEnumerable<PosApplication.Models.Product>
+
+@if (Model != null && Model.Any())
+{
+    <ul>
+        @foreach (var product in Model)
+        {
+            <li>@product.Name - @product.Price</li>
+        }
+    </ul>
+}
+else
+{
+    <p>No products available for this category.</p>
+}

@@ -68,7 +68,7 @@ namespace PosApplication.Controllers
         public IActionResult ProductsByCategoryPartial(int categoryId)
         {
             var products = ProductRepository.GetProductsByCategoryId(categoryId);
-            return PartialView("_Products", products);
+            return PartialView("~/Views/Products/_Products.cshtml", products);
         }
     }
 }
