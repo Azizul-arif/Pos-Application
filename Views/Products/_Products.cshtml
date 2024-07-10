@@ -2,12 +2,25 @@
 
 @if (Model != null && Model.Any())
 {
-    <ul>
-        @foreach (var product in Model)
-        {
-            <li>@product.Name - @product.Price</li>
-        }
-    </ul>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Product Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in Model)
+            {
+                <tr>
+                    <td>@product.Name</td>
+                    <td>@product.Price</td>
+                </tr>
+            }
+        </tbody>
+
+    </table>
+    
 }
 else
 {

@@ -27,25 +27,35 @@
             }
         </select>
         <br />
-        <div id="productsPartial"></div>
+        <div id="productsPartial">
+        </div>
     </div>
 </div>
 
 @section Scripts {
     <script>
         $(function () {
-            $('select[asp-for="SelectedCategoryId"]').on("change", function () {
-                $("#SelectedCategoryId").on("change", function () {
-                    loadProducts($(this).val())
-                    console.log($(this).val);
-                });
-            });
+            $('#SelectedCategoryId').on("change", function () {
+                alert($(this).val())
+                console.log($(this).val());
+                loadProducts($(this).val())
 
-            function loadProducts(categoryId) {
-                $("#productsPartial").load("/sales/ProductsByCategoryPartial", { categoryId: categoryId });
-                $("#productDetailPartial").html("");
-                $("#formSale").hide();
-            }
+            });
         });
+        function loadProducts(t) {
+
+            $.ajax({
+                type: "GET",
+                url: "/Products/ProductsByCategoryPartial?categoryId=" + t,
+
+                processData: false,
+                contentType: false,
+                success: function (data) {
+                    console.log(data)
+                    $("#productsPartial").html(data);
+                }
+            });
+        }
+
     </script>
 }

@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "D:\\Market Management System\\PosApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E048F20B-B8AE-49D7-BF07-514411FF6320}|PosApplication.csproj|d:\\market management system\\posapplication\\views\\sales\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E048F20B-B8AE-49D7-BF07-514411FF6320}|PosApplication.csproj|solutionrelative:views\\sales\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E048F20B-B8AE-49D7-BF07-514411FF6320}|PosApplication.csproj|d:\\market management system\\posapplication\\views\\products\\_products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E048F20B-B8AE-49D7-BF07-514411FF6320}|PosApplication.csproj|solutionrelative:views\\products\\_products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E048F20B-B8AE-49D7-BF07-514411FF6320}|PosApplication.csproj|d:\\market management system\\posapplication\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E048F20B-B8AE-49D7-BF07-514411FF6320}|PosApplication.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E048F20B-B8AE-49D7-BF07-514411FF6320}|PosApplication.csproj|d:\\market management system\\posapplication\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E048F20B-B8AE-49D7-BF07-514411FF6320}|PosApplication.csproj|solutionrelative:views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E048F20B-B8AE-49D7-BF07-514411FF6320}|PosApplication.csproj|d:\\market management system\\posapplication\\views\\products\\_product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E048F20B-B8AE-49D7-BF07-514411FF6320}|PosApplication.csproj|solutionrelative:views\\products\\_product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E048F20B-B8AE-49D7-BF07-514411FF6320}|PosApplication.csproj|d:\\market management system\\posapplication\\views\\sales\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E048F20B-B8AE-49D7-BF07-514411FF6320}|PosApplication.csproj|solutionrelative:views\\sales\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E048F20B-B8AE-49D7-BF07-514411FF6320}|PosApplication.csproj|d:\\market management system\\posapplication\\models\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,16 +39,8 @@
       "RelativeMoniker": "D:0:0:{E048F20B-B8AE-49D7-BF07-514411FF6320}|PosApplication.csproj|solutionrelative:viewmodel\\salesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E048F20B-B8AE-49D7-BF07-514411FF6320}|PosApplication.csproj|d:\\market management system\\posapplication\\views\\products\\_product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E048F20B-B8AE-49D7-BF07-514411FF6320}|PosApplication.csproj|solutionrelative:views\\products\\_product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E048F20B-B8AE-49D7-BF07-514411FF6320}|PosApplication.csproj|d:\\market management system\\posapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E048F20B-B8AE-49D7-BF07-514411FF6320}|PosApplication.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E048F20B-B8AE-49D7-BF07-514411FF6320}|PosApplication.csproj|d:\\market management system\\posapplication\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E048F20B-B8AE-49D7-BF07-514411FF6320}|PosApplication.csproj|solutionrelative:views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E048F20B-B8AE-49D7-BF07-514411FF6320}|PosApplication.csproj|d:\\market management system\\posapplication\\views\\products\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -114,73 +114,51 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "_Products.cshtml",
               "DocumentMoniker": "D:\\Market Management System\\PosApplication\\Views\\Products\\_Products.cshtml",
               "RelativeDocumentMoniker": "Views\\Products\\_Products.cshtml",
               "ToolTip": "D:\\Market Management System\\PosApplication\\Views\\Products\\_Products.cshtml",
               "RelativeToolTip": "Views\\Products\\_Products.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAzAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABYAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-09T18:50:39.318Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Market Management System\\PosApplication\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Market Management System\\PosApplication\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAACUAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-30T17:02:56.358Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Market Management System\\PosApplication\\Views\\Sales\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Sales\\Index.cshtml",
               "ToolTip": "D:\\Market Management System\\PosApplication\\Views\\Sales\\Index.cshtml",
               "RelativeToolTip": "Views\\Sales\\Index.cshtml",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAAC4AAAAmAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAywDUAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-08T17:16:43.617Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Add.cshtml",
-              "DocumentMoniker": "D:\\Market Management System\\PosApplication\\Views\\Products\\Add.cshtml",
-              "RelativeDocumentMoniker": "Views\\Products\\Add.cshtml",
-              "ToolTip": "D:\\Market Management System\\PosApplication\\Views\\Products\\Add.cshtml",
-              "RelativeToolTip": "Views\\Products\\Add.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-07T15:11:41.889Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "D:\\Market Management System\\PosApplication\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
               "ToolTip": "D:\\Market Management System\\PosApplication\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "Controllers\\ProductsController.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAswEgAAAAFAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAAAcwEQAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T16:12:11.364Z"
+              "WhenOpened": "2024-07-06T16:12:11.364Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "SalesViewModel.cs",
               "DocumentMoniker": "D:\\Market Management System\\PosApplication\\ViewModel\\SalesViewModel.cs",
               "RelativeDocumentMoniker": "ViewModel\\SalesViewModel.cs",
@@ -192,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "SalesController.cs",
               "DocumentMoniker": "D:\\Market Management System\\PosApplication\\Controllers\\SalesController.cs",
               "RelativeDocumentMoniker": "Controllers\\SalesController.cs",
@@ -204,7 +182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "D:\\Market Management System\\PosApplication\\Models\\ProductRepository.cs",
               "RelativeDocumentMoniker": "Models\\ProductRepository.cs",
@@ -228,7 +206,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\Market Management System\\PosApplication\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Models\\Product.cs",
@@ -252,15 +230,53 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "_Product.cshtml",
               "DocumentMoniker": "D:\\Market Management System\\PosApplication\\Views\\Products\\_Product.cshtml",
               "RelativeDocumentMoniker": "Views\\Products\\_Product.cshtml",
               "ToolTip": "D:\\Market Management System\\PosApplication\\Views\\Products\\_Product.cshtml",
               "RelativeToolTip": "Views\\Products\\_Product.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADgAAAAbAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADgAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-08T18:06:17.632Z"
+              "WhenOpened": "2024-07-08T18:06:17.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Market Management System\\PosApplication\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Products\\Index.cshtml",
+              "ToolTip": "D:\\Market Management System\\PosApplication\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "Views\\Products\\Index.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAA4AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-06T16:15:21.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "D:\\Market Management System\\PosApplication\\Views\\Products\\Add.cshtml",
+              "RelativeDocumentMoniker": "Views\\Products\\Add.cshtml",
+              "ToolTip": "D:\\Market Management System\\PosApplication\\Views\\Products\\Add.cshtml",
+              "RelativeToolTip": "Views\\Products\\Add.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-07T15:11:41.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Market Management System\\PosApplication\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Market Management System\\PosApplication\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACUAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T17:02:56.358Z"
             },
             {
               "$type": "Document",
@@ -273,18 +289,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-01T17:19:06.635Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Market Management System\\PosApplication\\Views\\Products\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Products\\Index.cshtml",
-              "ToolTip": "D:\\Market Management System\\PosApplication\\Views\\Products\\Index.cshtml",
-              "RelativeToolTip": "Views\\Products\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-06T16:15:21.048Z"
             },
             {
               "$type": "Document",
@@ -344,7 +348,8 @@
               "RelativeToolTip": "Models\\CategoriesRepository.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T16:23:16.983Z"
+              "WhenOpened": "2024-07-01T16:23:16.983Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -356,7 +361,8 @@
               "RelativeToolTip": "Controllers\\CategoriesController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T18:55:26.635Z"
+              "WhenOpened": "2024-06-29T18:55:26.635Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
